@@ -9,7 +9,7 @@ import tav.faeterj.Calculadora;
 class JUnitTestCalc {
 
 	@Test
-	void TesteSoma3e2() {
+	void TesteSoma() {
 		// Arrange
 		Calculadora Calc = new Calculadora();
 		int esperado = 5;
@@ -22,7 +22,7 @@ class JUnitTestCalc {
 	}
 	
 	@Test
-	void TesteSubtracaoCom3e2() {
+	void TesteSubtracao() {
 		
 		// Arrange
 		Calculadora Calc = new Calculadora();
@@ -36,7 +36,7 @@ class JUnitTestCalc {
 	}
 	
 	@Test
-	void TesteMultiplicacao3e2() {
+	void TesteMultiplicacao() {
 		
 		// Arrange
 		Calculadora Calc = new Calculadora();
@@ -50,7 +50,7 @@ class JUnitTestCalc {
 	}
 	
 	@Test
-	void TesteDivisao6e2() {
+	void TesteDivisao() {
 		
 		// Arrange
 		Calculadora Calc = new Calculadora();
@@ -63,7 +63,7 @@ class JUnitTestCalc {
 		assertEquals(esperado, resultado);
 	}
 	
-	void TesteDivisao3e2() {
+	void TesteDivisaoDouble() {
 		
 		// Arrange
 		Calculadora Calc = new Calculadora();
