@@ -63,6 +63,48 @@ class JUnitTestCalc {
 		assertEquals(esperado, resultado);
 	}
 	
+	@Test
+	void TesteSomaDouble() {
+		
+		// Arrange
+		Calculadora Calc = new Calculadora();
+		double esperado = 1.5;
+		
+		// Act
+		double resultado = Calc.Soma(0.75, 0.75);
+		
+		// Assert
+		assertEquals(esperado, resultado);
+	}
+	
+	@Test 
+	
+	void TesteSubtracaoDouble(){
+		// Arrange
+		Calculadora Calc = new Calculadora();
+		double esperado = 1.5;
+				
+		// Act
+		double resultado = Calc.Subtracao(3, 1.5);
+				
+		// Assert
+		assertEquals(esperado, resultado);
+	}
+	
+	@Test
+	void TestMultiplicacaoDouble() {
+		// Arrange
+		Calculadora Calc = new Calculadora();
+		double esperado = 4.5;
+					
+		// Act
+		double resultado = Calc.Multiplicacao(3, 1.5);
+					
+		// Assert
+		assertEquals(esperado, resultado);
+	}
+	
+	@Test
 	void TesteDivisaoDouble() {
 		
 		// Arrange
