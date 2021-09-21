@@ -2,19 +2,19 @@ package tav.faeterj;
 
 public class Calculadora {
 	
-	public int Soma(int x, int y) {
+	public double Soma(double x, double y) {
 		return x + y;
 	}
 	
-	public int Subtracao(int x, int y) {
+	public double Subtracao(double x, double y) {
 		return x - y;
 	}
 	
-	public int Multiplicacao(int x, int y) {
+	public double Multiplicacao(double x, double y) {
 		return x * y;
 	}
 	
-	public int Divisao(int x, int y) {
+	public double Divisao(double x, double y) {
 		return x / y;
 	}
 
