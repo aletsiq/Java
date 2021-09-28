@@ -117,5 +117,48 @@ class JUnitTestCalc {
 		// Assert
 		assertEquals(esperado, resultado);
 	}
+	
+	@Test
+	void TesteRaizQuadrada() {
+		
+		// Arrange
+		Calculadora Calc = new Calculadora();
+		double esperado = 2;
+		
+		// Act
+		double resultado = Calc.Raiz(4);
+		
+		// Assert
+		assertEquals(esperado, resultado);
+	
+	}
+	
+	@Test
+	void TesteExponenciacao() {
+		
+		// Arrange
+		Calculadora Calc = new Calculadora();
+		double esperado = 4;
+		
+		// Act
+		double resultado = Calc.Exponenciacao(2, 2);
+		
+		// Assert
+		assertEquals (esperado, resultado);
+	}
+	
+	@Test
+	void TestePercentual() {
+		
+		// Arrange
+		Calculadora Calc = new Calculadora();
+		double esperado = 1;
+		
+		// Act
+		double resultado = Calc.Percentual(1, 100);
+		
+		// Assert
+		assertEquals (esperado, resultado);
+	}
 
 }
