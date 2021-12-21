@@ -9,5 +9,4 @@ public class Av2TavApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(Av2TavApplication.class, args);
 	}
-
 }
